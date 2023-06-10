@@ -597,7 +597,7 @@ static int default_eva_get_epa_dram (const hb_mc_manycore_t *mc,
         uint32_t dram_index_2 = (((hb_mc_eva_addr(eva) & MAKE_MASK(DEFAULT_DRAM_BITIDX)) >> shift ) >> 8);
 
         uint32_t table[256];
-        const uint32_t hash_const = 7;
+        const uint32_t hash_const = 0;
         uint32_t hash_tmp_1;
         uint32_t hash_tmp_2;
         uint32_t dram_index_mod_1, dram_index_mod_2;
