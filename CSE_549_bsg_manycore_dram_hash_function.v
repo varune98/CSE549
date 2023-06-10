@@ -172,7 +172,7 @@ module bsg_manycore_dram_hash_function
 
 
   logic [7:0] ptable[255:0];
-	wire [7:0]hash_const = 8'd7;	
+	wire [7:0]hash_const = 8'd0;	
 	logic [7:0] hash_tmp_1, hash_tmp_2;
 	logic [7:0] dram_idx_mod_1, dram_idx_mod_2;	
 	logic [dram_index_width_lp-1:0] dram_index_fin;		
